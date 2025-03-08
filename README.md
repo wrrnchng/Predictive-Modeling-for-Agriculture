@@ -9,7 +9,7 @@
 
 ### 📌 Project Overview
 This project analyzes soil nutrients (**Nitrogen, Phosphorus, Potassium**) and **pH levels** to predict the best **crop type** using **Logistic Regression**.  
-We use **hyperparameter tuning (GridSearchCV)** to improve model accuracy by optimizing regularization and solver selection.
+I used **hyperparameter tuning (GridSearchCV)** to improve model accuracy by optimizing regularization and solver selection.
 
 ### 🔬 Dataset Description
 The dataset contains 5 columns:
@@ -21,7 +21,7 @@ The dataset contains 5 columns:
 
 ### 🚀 How the Code Works
 1. **Load and Preprocess Data**  
-   - Reads the dataset (`dataset.csv`).  
+   - Reads the dataset (`soil_measures.csv`).  
    - Encodes the target variable (**crop type**) using **LabelEncoder**.  
 
 2. **Hyperparameter Tuning with GridSearchCV**  
@@ -47,8 +47,8 @@ The dataset contains 5 columns:
 
 ### 📈 Results & Insights
 
-  - Nitrogen content produced the best accuracy (~78% in our test).
-  - Using GridSearchCV, we optimized hyperparameters to find the best solver and regularization.
+  - Nitrogen content produced the best accuracy (~78% in my testing).
+  - Using GridSearchCV, I optimized hyperparameters to find the best solver and regularization.
   - The dataset could be further improved with multi-feature selection or deep learning models.
 
 ### 🤝 Contributing
